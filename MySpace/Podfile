@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘MySpace’ do
+    
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'MJExtension'
+pod 'ReactiveObjC'
+pod 'MJRefresh'
+pod 'SAMKeychain'
+
+end
+
+

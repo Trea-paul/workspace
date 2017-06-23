@@ -1,0 +1,66 @@
+//
+//  JYConfig-prefix.pch
+//  CYSDemo
+//
+//  Created by Paul on 2017/6/12.
+//  Copyright © 2017年 Paul. All rights reserved.
+//  在此处理生产模式与调试模式
+
+#ifndef JYConfig_prefix_pch
+#define JYConfig_prefix_pch
+
+
+
+#ifdef DEBUG
+//调试模式
+
+//DEV
+/**/
+#define k_baseUrl @"http://wxtest.chengyisheng.com.cn/"
+
+#define k_sbaseUrl @"http://wxtest.chengyisheng.com.cn/api/"
+
+#define k_webBaseUrl @"http://wxtest.chengyisheng.com.cn/app_web/app_doctor_web/view/"
+
+#define k_webNotHttpsBaseUrl @"http://wxtest.chengyisheng.com.cn/app_web/app_doctor_web/view/"
+
+#define k_webNotHttpsYUbaseUrl @"http://wxtest.chengyisheng.com.cn"
+
+#define k_webAppBaseUrl @"http://wxtest.chengyisheng.com.cn/app/doctor/"
+
+//Test
+
+
+//#define k_baseUrl @"https://staging.chengyisheng.com.cn/api/"
+//
+//#define k_sbaseUrl @"https://staging.chengyisheng.com.cn/api/"
+//
+//#define k_webBaseUrl @"https://staging.chengyisheng.com.cn/app_web/app_doctor_web/view/"
+//
+//#define k_webNotHttpsBaseUrl @"http://staging.chengyisheng.com.cn/app_web/app_doctor_web/view/"
+//
+//#define k_webNotHttpsYUbaseUrl @"http://staging.chengyisheng.com.cn"
+//
+//#define k_webAppBaseUrl @"https://staging.chengyisheng.com.cn/app/doctor/"
+
+
+#else
+//生产模式
+
+#define k_baseUrl @"https://m.chengyisheng.com.cn/api/"
+//sbaseUrl
+#define k_sbaseUrl @"https://m.chengyisheng.com.cn/api/"
+
+#define k_webBaseUrl @"https://m.chengyisheng.com.cn/app_web/app_doctor_web/view/"
+
+#define k_webNotHttpsBaseUrl @"http://m.chengyisheng.com.cn/app_web/app_doctor_web/view/"
+
+#define k_webNotHttpsYUbaseUrl @"http://m.chengyisheng.com.cn"
+
+#define k_webAppBaseUrl @"https://m.chengyisheng.com.cn/app/doctor/"
+
+#endif
+
+
+
+#endif /* JYConfig_prefix_pch */

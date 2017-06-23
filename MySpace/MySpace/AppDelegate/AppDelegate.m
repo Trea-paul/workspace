@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JYTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    JYTabBarViewController *tabbarVC = [[JYTabBarViewController alloc]init];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    self.window.rootViewController = tabbarVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

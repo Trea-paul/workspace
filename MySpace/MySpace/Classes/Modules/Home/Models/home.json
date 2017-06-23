@@ -1,0 +1,92 @@
+{
+    "name" : "userName",
+    "userId" : "54321",
+    "image" : "imageName",
+    "time" : "2017.05.04",
+    "title" : "标题",
+    "subTitle" : "副标题",
+    
+    "categories" : [
+                    {
+                    "title" : "有道词典",
+                    "value" : "youdao",
+                    "Id" : "123",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/a6886e4a210aec76d9c4a758ddcc118c.jpg"
+                    },
+                    {
+                    "title" : "金山词霸",
+                    "value" : "kingshan",
+                    "Id" : "234",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/112547f8f36144c008aec8183f0d767b.jpg"
+                    },
+                    {
+                    "title" : "百度词典",
+                    "value" : "baidu",
+                    "Id" : "345",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/112547f8f36144c008aec8183f0d767b.jpg"
+                    },
+                    {
+                    "title" : "百度词典",
+                    "value" : "baidu",
+                    "Id" : "3456",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/41feaa0a974aa91f1637d58e55795ab2.jpg"
+                    },
+                    {
+                    "title" : "百度词典",
+                    "value" : "",
+                    "Id" : "3457",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/112547f8f36144c008aec8183f0d767b.jpg"
+                    },
+                    {
+                    "title" : "百度词典",
+                    "value" : "baidu",
+                    "Id" : "3458",
+                    "imageUrl" : ""
+                    },
+                    {
+                    "title" : "有道词典",
+                    "value" : "youdao",
+                    "Id" : "1239",
+                    "imageUrl" : ""
+                    },
+                    {
+                    "title" : "金山词霸",
+                    "value" : "kingshan",
+                    "Id" : "23410",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/112547f8f36144c008aec8183f0d767b.jpg"
+                    },
+                    {
+                    "title" : "百度词典",
+                    "value" : "baidu",
+                    "Id" : "34511",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/032458feca841e2c4ef58367ded1e28a.jpg"
+                    },
+                    {
+                    "title" : "有道词典",
+                    "value" : "",
+                    "Id" : "12312",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/889195be45cf1efeb3dcdbe38d4dad83.jpg"
+                    },
+                    {
+                    "title" : "金山词霸",
+                    "value" : "kingshan",
+                    "Id" : "23413",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/41feaa0a974aa91f1637d58e55795ab2.jpg"
+                    },
+                    {
+                    "title" : "百度词典",
+                    "value" : "",
+                    "Id" : "34514",
+                    "imageUrl" : "http://www.qqtouxiang.com/d/file/qinglv/2017-05-04/8a16d0830a46d491ca9dfd257367269f.jpg"
+                    }
+    
+    ],
+    "workDict" : {
+        "workFrom" : "9:00PM",
+        "workTo" : "6:00AM",
+        "workWhere" : "guangzhou",
+        "workTime" : "8 hours"
+    
+    }
+    
+}

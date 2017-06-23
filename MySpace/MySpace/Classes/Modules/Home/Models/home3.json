@@ -1,0 +1,120 @@
+{
+    "name" : "userName",
+    "userId" : "54321",
+    "image" : "imageName",
+    "time" : "2017.05.04",
+    "title" : "标题",
+    "subTitle" : "副标题",
+    
+    "categories" : [
+                    {
+                    "title" : "村医去世上千人送行，赤脚医生为何受尊重",
+                    "tag" : "饮食,养生,心脑血管",
+                    "value" : "医生药品都面临太高准入门槛。降低门槛，无论对乡村还是城市，都有重要的价值。",
+                    "Id" : "123",
+                    "url" : "http://news.sina.com.cn/pl/2017-05-11/doc-ifyfeius7803351.shtml",
+                    "imageUrl" : ""
+                    },
+                    {
+                    "title" : "韩新总统文在寅履新 首日忙4件大事 首日忙4件大事 首日忙4件大事 首日忙4件大事",
+                    "tag" : "高血压,人生,哲理",
+                    "value" : "文在寅与特朗普首次通话 商定合作解决朝核问题",
+                    "Id" : "123",
+                    "url" : "http://news.sohu.com/20170511/n492527605.shtml",
+                    "imageUrl" : ""
+                    },
+                    {
+                    "title" : "乌克兰女子因嫁不出去上街游行 怪男人太少去上街游行 怪男人太少 怪男人太少去上街游行 怪男人太少去上街游行 怪男人太少去上街游行 怪男人太少去上街游行 怪男人太少去上街游行",
+                    "tag" : "高血压,冠心病",
+                    "value" : "近日，一群乌克兰女子走上街头，她们高举着标语牌，边走边喊口号，参加游行的美女个个身材高挑，气质迷人。",
+                    "Id" : "123",
+                    "url" : "http://www.bashan.com/paihang/123397.html?hys",
+                    "imageUrl" : "http://www.bashan.com/uploads/allimg/170511/13-1F511133QJ09.jpg"
+                    },
+                    {
+                    "title" : "英国美女带超萌松狮出街 回头率暴增",
+                    "tag" : "哲理",
+                    "value" : "2017年5月11日报道，快来认识一下这只毛绒绒的像泰迪熊玩具一样的狗狗。37岁的Christine Koegler来自伦敦西区，她常常带着8岁的松狮犬Zog出入咖啡店和...[详情]",
+                    "Id" : "123",
+                    "url" : "http://www.bashan.com/yaowen/123375.html?hys",
+                    "imageUrl" : "http://www.bashan.com/uploads/allimg/170511/17-1F511110220a4.jpg"
+                    },
+                    {
+                    "title" : "Facebook昔日的挫败与今日的瓶颈 昔日的挫败与今日的瓶颈 昔日的挫败与今日的瓶颈",
+                    "tag" : "高血压,冠心病",
+                    "value" : "Facebook全球最大的竞争对手实际上是腾讯，而Facebook短期不会进入中国。”一位知情人说，“现在你和腾讯不是敌人，也不是朋友，但你拿了Facebook的钱，你就是腾讯永远的敌人。",
+                    "Id" : "123",
+                    "url" : "http://www.bashan.com/paihang/123363.html?hys",
+                    "imageUrl" : "http://www.bashan.com/uploads/allimg/170511/13-1F511100034C6.jpg"
+                    },
+                    {
+                    "title" : "韩新总统文在寅履新 首日忙4件大事",
+                    "tag" : "养生,康复",
+                    "value" : "文在寅与特朗普首次通话 商定合作解决朝核问题",
+                    "Id" : "123",
+                    "url" : "http://news.sohu.com/20170511/n492527605.shtml",
+                    "imageUrl" : ""
+                    },
+                    {
+                    "title" : "英国美女带超萌松狮出街 回头率暴增",
+                    "value" : "2017年5月11日报道，快来认识一下这只毛绒绒的像泰迪熊玩具一样的狗狗。37岁的Christine Koegler来自伦敦西区，她常常带着8岁的松狮犬Zog出入咖啡店和...[详情]",
+                    "Id" : "123",
+                    "url" : "http://www.bashan.com/yaowen/123375.html?hys",
+                    "imageUrl" : "http://www.bashan.com/uploads/allimg/170511/17-1F511110220a4.jpg"
+                    },
+                    {
+                    "title" : "乌克兰女子因嫁不出去上街游行 怪男人太少",
+                    "value" : "近日，一群乌克兰女子走上街头，她们高举着标语牌，边走边喊口号，参加游行的美女个个身材高挑，气质迷人。",
+                    "Id" : "123",
+                    "url" : "http://www.bashan.com/paihang/123397.html?hys",
+                    "imageUrl" : "http://www.bashan.com/uploads/allimg/170511/13-1F511133QJ09.jpg"
+                    },
+                    {
+                    "title" : "韩新总统文在寅履新 首日忙4件大事",
+                    "tag" : "高血压,冠心病",
+                    "value" : "文在寅与特朗普首次通话 商定合作解决朝核问题",
+                    "Id" : "123",
+                    "url" : "http://news.sohu.com/20170511/n492527605.shtml",
+                    "imageUrl" : ""
+                    },
+                    {
+                    "title" : "乌克兰女子因嫁不出去上街游行 怪男人太少",
+                    "value" : "近日，一群乌克兰女子走上街头，她们高举着标语牌，边走边喊口号，参加游行的美女个个身材高挑，气质迷人。",
+                    "Id" : "123",
+                    "url" : "http://www.bashan.com/paihang/123397.html?hys",
+                    "imageUrl" : "http://www.bashan.com/uploads/allimg/170511/13-1F511133QJ09.jpg"
+                    },
+                    {
+                    "title" : "英国美女带超萌松狮出街 回头率暴增 回头率暴增 回头率暴增 回头率暴增 回头率暴增 回头率暴增 回头率暴增 回头率暴增 回头率暴增",
+                    "value" : "2017年5月11日报道，快来认识一下这只毛绒绒的像泰迪熊玩具一样的狗狗。37岁的Christine Koegler来自伦敦西区，她常常带着8岁的松狮犬Zog出入咖啡店和...[详情]",
+                    "Id" : "123",
+                    "url" : "http://www.bashan.com/yaowen/123375.html?hys",
+                    "imageUrl" : "http://www.bashan.com/uploads/allimg/170511/17-1F511110220a4.jpg"
+                    },
+                    {
+                    "title" : "韩新总统文在寅履新 首日忙4件大事",
+                    "tag" : "心脑血管,康复,人生,哲理",
+                    "value" : "文在寅与特朗普首次通话 商定合作解决朝核问题",
+                    "Id" : "123",
+                    "url" : "http://news.sohu.com/20170511/n492527605.shtml",
+                    "imageUrl" : ""
+                    },
+                    {
+                    "title" : "乌克兰女子因嫁不出去上街游行 怪男人太少",
+                    "value" : "近日，一群乌克兰女子走上街头，她们高举着标语牌，边走边喊口号，参加游行的美女个个身材高挑，气质迷人。",
+                    "Id" : "123",
+                    "url" : "http://www.bashan.com/paihang/123397.html?hys",
+                    "imageUrl" : "http://www.bashan.com/uploads/allimg/170511/13-1F511133QJ09.jpg"
+                    }
+                    
+    
+    ],
+    "workDict" : {
+        "workFrom" : "9:00PM",
+        "workTo" : "6:00AM",
+        "workWhere" : "guangzhou",
+        "workTime" : "8 hours"
+    
+    }
+    
+}

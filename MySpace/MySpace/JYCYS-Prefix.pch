@@ -1,0 +1,64 @@
+//
+//  JY_PrefixHeader.pch
+//  CYSDemo
+//
+//  Created by Paul on 2017/5/2.
+//  Copyright © 2017年 Paul. All rights reserved.
+//
+
+#ifndef JY_PrefixHeader_pch
+#define JY_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// System
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "JYConfig-prefix.pch"
+#import "AppDelegate.h"
+
+// constans
+#import "JYMacro.h"
+#import "JYDimension.h"
+#import "JYColor.h"
+
+
+// Utils
+#import "SystemInfoUtils.h"
+
+// common
+#import "JYUserInfo.h"
+#import "HttpRequestManager.h"
+#import "JSONHelper.h"
+#import "HUDHepler.h"
+#import "JYWebViewController.h"
+#import "UIButton+Layout.h"
+#import "StringUtils.h"
+#import "InterfaceUtils.h"
+#import "AlertHelper.h"
+#import "DateUtils.h"
+
+// Views
+#import "CategoryButton.h"
+#import "JYPickerView.h"
+#import "DateTimePickerView.h"
+
+
+// pod
+#import "ReactiveObjC.h"
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
+
+
+// TableView Adapter
+#import "JYTabBarViewController.h"
+#import "JYTableViewController.h"
+#import "JYTableViewModel.h"
+#import "JYTableViewCellModel.h"
+#import "TableViewCellClassImport.h"
+
+#endif /* JY_PrefixHeader_pch */
