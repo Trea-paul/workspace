@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C4984D61EFCFAF8009DBF5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4984D51EFCFAF8009DBF5F /* main.m */; };
+		8C4984D91EFCFAF8009DBF5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4984D81EFCFAF8009DBF5F /* AppDelegate.m */; };
+		8C4984DC1EFCFAF8009DBF5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4984DB1EFCFAF8009DBF5F /* ViewController.m */; };
+		8C4984DF1EFCFAF8009DBF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4984DD1EFCFAF8009DBF5F /* Main.storyboard */; };
+		8C4984E11EFCFAF8009DBF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4984E01EFCFAF8009DBF5F /* Assets.xcassets */; };
+		8C4984E41EFCFAF8009DBF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4984E21EFCFAF8009DBF5F /* LaunchScreen.storyboard */; };
+		8C4984EF1EFCFAF8009DBF5F /* MySpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4984EE1EFCFAF8009DBF5F /* MySpaceTests.m */; };
+		8C4984FA1EFCFAF8009DBF5F /* MySpaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4984F91EFCFAF8009DBF5F /* MySpaceUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C4984EB1EFCFAF8009DBF5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4984C91EFCFAF8009DBF5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4984D01EFCFAF8009DBF5F;
+			remoteInfo = MySpace;
+		};
+		8C4984F61EFCFAF8009DBF5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4984C91EFCFAF8009DBF5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4984D01EFCFAF8009DBF5F;
+			remoteInfo = MySpace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C4984D11EFCFAF8009DBF5F /* MySpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4984D51EFCFAF8009DBF5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C4984D71EFCFAF8009DBF5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C4984D81EFCFAF8009DBF5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C4984DA1EFCFAF8009DBF5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C4984DB1EFCFAF8009DBF5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C4984DE1EFCFAF8009DBF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C4984E01EFCFAF8009DBF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C4984E31EFCFAF8009DBF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C4984E51EFCFAF8009DBF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4984EA1EFCFAF8009DBF5F /* MySpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4984EE1EFCFAF8009DBF5F /* MySpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpaceTests.m; sourceTree = "<group>"; };
+		8C4984F01EFCFAF8009DBF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4984F51EFCFAF8009DBF5F /* MySpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4984F91EFCFAF8009DBF5F /* MySpaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpaceUITests.m; sourceTree = "<group>"; };
+		8C4984FB1EFCFAF8009DBF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C4984CE1EFCFAF8009DBF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4984E71EFCFAF8009DBF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4984F21EFCFAF8009DBF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4984C81EFCFAF8009DBF5F = {
+			isa = PBXGroup;
+			children = (
+				8C4984D31EFCFAF8009DBF5F /* MySpace */,
+				8C4984ED1EFCFAF8009DBF5F /* MySpaceTests */,
+				8C4984F81EFCFAF8009DBF5F /* MySpaceUITests */,
+				8C4984D21EFCFAF8009DBF5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C4984D21EFCFAF8009DBF5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C4984D11EFCFAF8009DBF5F /* MySpace.app */,
+				8C4984EA1EFCFAF8009DBF5F /* MySpaceTests.xctest */,
+				8C4984F51EFCFAF8009DBF5F /* MySpaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C4984D31EFCFAF8009DBF5F /* MySpace */ = {
+			isa = PBXGroup;
+			children = (
+				8C4984D71EFCFAF8009DBF5F /* AppDelegate.h */,
+				8C4984D81EFCFAF8009DBF5F /* AppDelegate.m */,
+				8C4984DA1EFCFAF8009DBF5F /* ViewController.h */,
+				8C4984DB1EFCFAF8009DBF5F /* ViewController.m */,
+				8C4984DD1EFCFAF8009DBF5F /* Main.storyboard */,
+				8C4984E01EFCFAF8009DBF5F /* Assets.xcassets */,
+				8C4984E21EFCFAF8009DBF5F /* LaunchScreen.storyboard */,
+				8C4984E51EFCFAF8009DBF5F /* Info.plist */,
+				8C4984D41EFCFAF8009DBF5F /* Supporting Files */,
+			);
+			path = MySpace;
+			sourceTree = "<group>";
+		};
+		8C4984D41EFCFAF8009DBF5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C4984D51EFCFAF8009DBF5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C4984ED1EFCFAF8009DBF5F /* MySpaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4984EE1EFCFAF8009DBF5F /* MySpaceTests.m */,
+				8C4984F01EFCFAF8009DBF5F /* Info.plist */,
+			);
+			path = MySpaceTests;
+			sourceTree = "<group>";
+		};
+		8C4984F81EFCFAF8009DBF5F /* MySpaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4984F91EFCFAF8009DBF5F /* MySpaceUITests.m */,
+				8C4984FB1EFCFAF8009DBF5F /* Info.plist */,
+			);
+			path = MySpaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C4984D01EFCFAF8009DBF5F /* MySpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4984FE1EFCFAF8009DBF5F /* Build configuration list for PBXNativeTarget "MySpace" */;
+			buildPhases = (
+				8C4984CD1EFCFAF8009DBF5F /* Sources */,
+				8C4984CE1EFCFAF8009DBF5F /* Frameworks */,
+				8C4984CF1EFCFAF8009DBF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySpace;
+			productName = MySpace;
+			productReference = 8C4984D11EFCFAF8009DBF5F /* MySpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C4984E91EFCFAF8009DBF5F /* MySpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4985011EFCFAF8009DBF5F /* Build configuration list for PBXNativeTarget "MySpaceTests" */;
+			buildPhases = (
+				8C4984E61EFCFAF8009DBF5F /* Sources */,
+				8C4984E71EFCFAF8009DBF5F /* Frameworks */,
+				8C4984E81EFCFAF8009DBF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4984EC1EFCFAF8009DBF5F /* PBXTargetDependency */,
+			);
+			name = MySpaceTests;
+			productName = MySpaceTests;
+			productReference = 8C4984EA1EFCFAF8009DBF5F /* MySpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C4984F41EFCFAF8009DBF5F /* MySpaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4985041EFCFAF8009DBF5F /* Build configuration list for PBXNativeTarget "MySpaceUITests" */;
+			buildPhases = (
+				8C4984F11EFCFAF8009DBF5F /* Sources */,
+				8C4984F21EFCFAF8009DBF5F /* Frameworks */,
+				8C4984F31EFCFAF8009DBF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4984F71EFCFAF8009DBF5F /* PBXTargetDependency */,
+			);
+			name = MySpaceUITests;
+			productName = MySpaceUITests;
+			productReference = 8C4984F51EFCFAF8009DBF5F /* MySpaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C4984C91EFCFAF8009DBF5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Trea-Paul";
+				TargetAttributes = {
+					8C4984D01EFCFAF8009DBF5F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					8C4984E91EFCFAF8009DBF5F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C4984D01EFCFAF8009DBF5F;
+					};
+					8C4984F41EFCFAF8009DBF5F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C4984D01EFCFAF8009DBF5F;
+					};
+				};
+			};
+			buildConfigurationList = 8C4984CC1EFCFAF8009DBF5F /* Build configuration list for PBXProject "MySpace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C4984C81EFCFAF8009DBF5F;
+			productRefGroup = 8C4984D21EFCFAF8009DBF5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C4984D01EFCFAF8009DBF5F /* MySpace */,
+				8C4984E91EFCFAF8009DBF5F /* MySpaceTests */,
+				8C4984F41EFCFAF8009DBF5F /* MySpaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C4984CF1EFCFAF8009DBF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4984E41EFCFAF8009DBF5F /* LaunchScreen.storyboard in Resources */,
+				8C4984E11EFCFAF8009DBF5F /* Assets.xcassets in Resources */,
+				8C4984DF1EFCFAF8009DBF5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4984E81EFCFAF8009DBF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4984F31EFCFAF8009DBF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C4984CD1EFCFAF8009DBF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4984DC1EFCFAF8009DBF5F /* ViewController.m in Sources */,
+				8C4984D91EFCFAF8009DBF5F /* AppDelegate.m in Sources */,
+				8C4984D61EFCFAF8009DBF5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4984E61EFCFAF8009DBF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4984EF1EFCFAF8009DBF5F /* MySpaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4984F11EFCFAF8009DBF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4984FA1EFCFAF8009DBF5F /* MySpaceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C4984EC1EFCFAF8009DBF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4984D01EFCFAF8009DBF5F /* MySpace */;
+			targetProxy = 8C4984EB1EFCFAF8009DBF5F /* PBXContainerItemProxy */;
+		};
+		8C4984F71EFCFAF8009DBF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4984D01EFCFAF8009DBF5F /* MySpace */;
+			targetProxy = 8C4984F61EFCFAF8009DBF5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C4984DD1EFCFAF8009DBF5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4984DE1EFCFAF8009DBF5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C4984E21EFCFAF8009DBF5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4984E31EFCFAF8009DBF5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C4984FC1EFCFAF8009DBF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C4984FD1EFCFAF8009DBF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C4984FF1EFCFAF8009DBF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MySpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TP.MySpace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C4985001EFCFAF8009DBF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MySpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TP.MySpace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C4985021EFCFAF8009DBF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MySpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TP.MySpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySpace.app/MySpace";
+			};
+			name = Debug;
+		};
+		8C4985031EFCFAF8009DBF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MySpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TP.MySpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySpace.app/MySpace";
+			};
+			name = Release;
+		};
+		8C4985051EFCFAF8009DBF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MySpaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TP.MySpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MySpace;
+			};
+			name = Debug;
+		};
+		8C4985061EFCFAF8009DBF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MySpaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TP.MySpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MySpace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C4984CC1EFCFAF8009DBF5F /* Build configuration list for PBXProject "MySpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4984FC1EFCFAF8009DBF5F /* Debug */,
+				8C4984FD1EFCFAF8009DBF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4984FE1EFCFAF8009DBF5F /* Build configuration list for PBXNativeTarget "MySpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4984FF1EFCFAF8009DBF5F /* Debug */,
+				8C4985001EFCFAF8009DBF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C4985011EFCFAF8009DBF5F /* Build configuration list for PBXNativeTarget "MySpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4985021EFCFAF8009DBF5F /* Debug */,
+				8C4985031EFCFAF8009DBF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C4985041EFCFAF8009DBF5F /* Build configuration list for PBXNativeTarget "MySpaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4985051EFCFAF8009DBF5F /* Debug */,
+				8C4985061EFCFAF8009DBF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C4984C91EFCFAF8009DBF5F /* Project object */;
+}
