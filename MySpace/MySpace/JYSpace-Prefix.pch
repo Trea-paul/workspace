@@ -15,7 +15,7 @@
 // System
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "MSConfig-prefix.pch"
+#import "JYConfig-prefix.pch"
 #import "AppDelegate.h"
 
 // constans
