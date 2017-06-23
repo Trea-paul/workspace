@@ -72,9 +72,11 @@ NSString * const kCollectionViewCellId = @"BannerCollectionViewCellId";
 }
 
 - (void)addTimer {
-    _timer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(nextPage) userInfo:nil repeats:YES];
-//    DLog(@"timer %@", _timer);
-    [[NSRunLoop mainRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
+    if (!_timer && self.banners.count > 1) {
+        
+        _timer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(nextPage) userInfo:nil repeats:YES];
+        [[NSRunLoop mainRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
+    }
 }
 
 - (void)nextPage {
